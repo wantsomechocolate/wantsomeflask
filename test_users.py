@@ -43,7 +43,7 @@ class UserTests(unittest.TestCase):
             email = 'wantsomechocolate@gmail.com',
             password = 'asdfasdf',
             confirm = 'asdfasdf'
-            ), follow_redirect=True)
+            ), follow_redirects=True)
 
     def create_user(self):
         new_user = User('James','wantsomechocolate@gmail.com',
@@ -57,7 +57,6 @@ class UserTests(unittest.TestCase):
         self.create_user()
         response=self.login('James', 'asdfasdf')
         response_text=response.get_data(as_text=True)
-        
         assert response_text.find('Welcome')!=-1
 
     def test_users_cannot_login_unless_registered(self):
@@ -67,19 +66,28 @@ class UserTests(unittest.TestCase):
 
     def test_users_can_logout(self):
         self.create_user()
+        self.login('James','asdfasdf')
         response = self.logout()
         response_text=response.get_data(as_text=True)
-        assert response_text.find('Need an account')!=-1
+        assert response_text.find('You are logged out')!=-1
 
     def test_logged_in_users_can_access_tasks(self):
         self.create_user()
-        response=self.login('James','asdfasdf')
-        #response = self.app.get('tasks/tasks/', follow_redirects=True)
+        self.login('James','asdfasdf')
+        response = self.app.get('/tasks/tasks', follow_redirects=True)
         response_text = response.get_data(as_text=True)
-        assert response_text.find('Add a new task') != -1
+        assert response_text.find('Add a new task')!=-1
 
-##    def test_not_logged_in_users_cannot_access_tasks(self):
-##        response=self.app
+    def test_not_logged_in_users_cannot_access_tasks(self):
+        response=self.app.post('/tasks/tasks', follow_redirects=True)
+        response_text=response.get_data(as_text=True)
+        assert response_text.find('You need to login first')
+
+    def test_user_registration(self):
+        self.app.get('users/register/',follow_redirects=True)
+        response=self.register()
+        response_text=response.get_data(as_text=True)
+        assert response_text.find('Thanks for registering')
 
 
 
