@@ -7,11 +7,11 @@ from app.tasks.forms import AddTask
 from app.models import FTasks
 
 
-mod=Blueprint('tasks',__name__, url_prefix='/tasks/',
+mod=Blueprint('tasks',__name__, url_prefix='/tasks',
               template_folder='templates', static_folder='static')
 
 
-@mod.route('/tasks/')
+@mod.route('/tasks')
 @login_required
 def tasks():
     open_tasks = db.session.query(FTasks).filter_by(status='1').order_by(FTasks.priority.desc())

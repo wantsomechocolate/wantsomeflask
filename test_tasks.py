@@ -1,9 +1,7 @@
-# test.py
+# root/test_tasks.py
 
 import os
 import unittest
-
-#from views import app, db
 from app import app, db
 from app.models import User
 from app.models import FTasks
@@ -12,7 +10,7 @@ import datetime
 
 TEST_DB = 'test.db'
 
-class Users(unittest.TestCase):
+class Tasks(unittest.TestCase):
 
     # this is a special method that is executed prior to each test
 
@@ -29,23 +27,7 @@ class Users(unittest.TestCase):
     def tearDown(self):
         db.drop_all()
 
-    # each test should start with 'test'
-
-    def test_new_user_can_register(self):
-        new_user = User('mherman', 'micheal@mherman.org', 'michealhearm')
-        db.session.add(new_user)
-        db.session.commit()
-        test = db.session.query(User).all()
-        for t in test:
-            #t.name
-            assert t.name == 'mherman'
-
-    def test_existing_user_can_login(self):
-        new_user=User('mherman', 'micheal@mherman.org', 'michealhearm')
-        db.session.add(new_user)
-        db.session.commit()
-        u=User.query.filter_by(name='mherman', password='michealhearm').first()
-        assert u.name=='mherman'
+    # tests
 
     def test_add_new_task(self):
         new_task = FTasks(
@@ -59,10 +41,6 @@ class Users(unittest.TestCase):
         db.session.add(new_task)
         db.session.commit()
         
-        
-
-    
-    
 
 if __name__== "__main__":
     unittest.main()
