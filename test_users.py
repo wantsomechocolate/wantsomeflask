@@ -89,7 +89,19 @@ class UserTests(unittest.TestCase):
         response_text=response.get_data(as_text=True)
         assert response_text.find('Thanks for registering')
 
+    def test_user_registration_error(self):
+        self.app.get('users/register/',follow_redirects=True)
+        self.register()
+        self.app.get('users/register/',follow_redirects=True)
+        response=self.register()
+        response_text = response.get_data(as_text=True)
+        assert response_text.find("Oh no!")!=-1
 
+    def test_404_error(self):
+        response = self.app.get('/xxxxxx/', follow_redirects=True)
+        response_text = response.get_data(as_text=True)
+        assert response_text.find("There's nothing here")!=-1
+        
 
     # testing the models
 
