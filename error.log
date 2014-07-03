@@ -178,3 +178,13 @@
                                             errors '
                                             '[in /home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/app/__init__.py:
                                             27]
+ 2014-07-03 00:56:10,065
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-03 00:56:45,218
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
