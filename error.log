@@ -897,3 +897,13 @@ NameError: global name 'results' is not defined
                                             errors '
                                             '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
                                             27]
+ 2014-07-04 19:31:01,248
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 19:31:07,230
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
