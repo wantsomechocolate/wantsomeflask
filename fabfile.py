@@ -36,9 +36,12 @@ def heroku_test():
     local('''heroku run python test_tasks.py -v && 
            heroku run python test_users.py -v''')
 
+def rollback():
+	local("heroku rollback")
+
 def deploy():
     pull()
     test()
     commit()
     heroku()
-    heroku_test
+    heroku_testfab

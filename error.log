@@ -658,3 +658,242 @@
                                             errors '
                                             '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
                                             27]
+ 2014-07-04 18:24:38,424
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:24:53,942
+                                            ERROR:
+                                            Exception on /api/tasks/ [GET] '
+                                            '[in /home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py:
+                                            1423]
+Traceback (most recent call last):
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/wantsomechocolate/Code/flask-taskr/app/views.py", line 53, in tasks
+    for result in results:
+NameError: global name 'results' is not defined
+ 2014-07-04 18:25:12,159
+                                            ERROR:
+                                            Exception on /api/tasks/ [GET] '
+                                            '[in /home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py:
+                                            1423]
+Traceback (most recent call last):
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/wantsomechocolate/Code/flask-taskr/app/views.py", line 53, in tasks
+    for result in results:
+NameError: global name 'results' is not defined
+ 2014-07-04 18:25:17,555
+                                            ERROR:
+                                            Exception on /api/tasks/ [GET] '
+                                            '[in /home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py:
+                                            1423]
+Traceback (most recent call last):
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/wantsomechocolate/Code/flask-taskr/app/views.py", line 53, in tasks
+    for result in results:
+NameError: global name 'results' is not defined
+ 2014-07-04 18:26:42,414
+                                            ERROR:
+                                            Exception on /api/tasks/ [GET] '
+                                            '[in /home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py:
+                                            1423]
+Traceback (most recent call last):
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/lib/python3.3/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/wantsomechocolate/Code/flask-taskr/app/views.py", line 53, in tasks
+    for result in results:
+NameError: global name 'results' is not defined
+ 2014-07-04 18:28:48,166
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:28:48,641
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:31:27,066
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:31:52,824
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:32:20,256
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:32:20,693
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:34:07,420
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:34:17,692
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:34:18,175
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:36:20,030
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:37:00,976
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:37:19,698
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:37:47,549
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:38:07,769
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:38:14,137
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:38:23,034
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:38:23,467
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:39:34,771
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:39:56,529
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:40:57,774
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:41:12,436
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:41:40,248
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:41:49,842
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:41:57,406
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:42:14,086
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:42:25,701
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:43:15,820
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 18:44:53,425
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 19:30:21,103
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-04 19:30:27,667
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
