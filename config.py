@@ -1,5 +1,6 @@
 ##config.py
 
+
 CSRF_ENABLED = True
 SECRET_KEY = "^oW'saZW4*N:SO0_xq.W6,4272h=fq"
 
