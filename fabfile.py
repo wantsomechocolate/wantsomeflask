@@ -44,4 +44,5 @@ def deploy():
     test()
     commit()
     heroku()
-    heroku_testfab
+    heroku_test
+

@@ -1,7 +1,7 @@
 #db_create.py
 
-from views import db
-from models import FTasks
+from app.views import db
+from app.models import FTasks
 from datetime import date
 
 # create the database and the bd table
