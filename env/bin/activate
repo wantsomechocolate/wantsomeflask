@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env"
+VIRTUAL_ENV="/home/wantsomechocolate/Code/flask-taskr/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

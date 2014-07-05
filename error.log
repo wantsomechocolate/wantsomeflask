@@ -977,3 +977,48 @@ NameError: global name 'results' is not defined
                                             errors '
                                             '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
                                             27]
+ 2014-07-05 01:38:14,502
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-05 01:38:15,113
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-05 01:51:08,721
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-05 01:51:21,449
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-05 01:51:21,732
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-05 01:53:06,198
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-05 01:53:06,458
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-05 01:55:00,862
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]
+ 2014-07-05 01:55:06,901
+                                            INFO:
+                                            errors '
+                                            '[in /home/wantsomechocolate/Code/flask-taskr/app/__init__.py:
+                                            27]

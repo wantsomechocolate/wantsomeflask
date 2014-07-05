@@ -1,4 +1,4 @@
-#!/home/wantsomechocolate/Code/Tutorials/RealPython/RealPythonPart2/projects/flask-taskr/env/bin/python3
+#!/home/wantsomechocolate/Code/flask-taskr/env/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==0.9.8','console_scripts','easy_install'
 __requires__ = 'setuptools==0.9.8'
 import sys
