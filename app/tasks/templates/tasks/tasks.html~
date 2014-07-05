@@ -21,7 +21,7 @@
 					{{ form.posted_date }}&nbsp;
 
 				   	{{ form.priority.label }}: 
-					{{ form.priority }}&nbsp;
+					{{ form.priority.data=5 }}&nbsp;
 
 					<button class="btn btn-md btn-primary" type="submit">Submit</button>
 				</p>

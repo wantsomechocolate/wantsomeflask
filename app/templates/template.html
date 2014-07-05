@@ -15,7 +15,17 @@
 			href="{{ url_for('static', filename='bootstrap-3.2.0-dist/css/bootstrap.min.css') }}">
 
 		<link rel="stylesheet" 
+			href="{{ url_for('static', filename='css/jquery-ui.min.css') }}">
+
+		<link rel="stylesheet" 
 			href="{{ url_for('static', filename='css/styles.css') }}">
+
+		<link rel="stylesheet" 
+			href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+
+		<!--
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+		-->
 
 	</head>
 
@@ -78,13 +88,27 @@
 	</div>
 
 
-		<!--scripts-->
+		<!--scripts->
+
 		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
-		<script src="{{ url_for('static', filename='js/jquery-1.11.1.min.js') }}"></script>
+		
+        <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
 
 		<script src="{{ url_for('static', filename='bootstrap-3.2.0-dist/js/bootstrap.min.js') }}"></script>
-	
 
+		-->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+
+		<script src="{{ url_for('static', filename='js/jquery-1.11.1.min.js') }}"></script>
+
+		<script src="{{ url_for('static', filename='js/jquery-ui.min.js') }}"></script>
+
+		<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script
+		
 
 	</body>
 </html>

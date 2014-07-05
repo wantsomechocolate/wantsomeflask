@@ -19,7 +19,7 @@ class AddTask(Form):
         choices.append((str(i+1),str(i+1)))
   
     priority = SelectField('Priority', validators=[DataRequired()], choices=choices,
-                           id='priority_dropdown')
+                           id='priority_dropdown', default=5)
 
     status = IntegerField('Status')
 
